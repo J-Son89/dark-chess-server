@@ -1,0 +1,24 @@
+{
+  "name": "dark-chess-server",
+  "version": "1.0.0",
+  "description": "sorts the shtuff out",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests?",
+    "start": "node server"
+  },
+  "author": "JC",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "engines": {
+      "node": "10.13.0"
+    },
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "querystring": "^0.2.0",
+    "socket.io": "^2.3.0"
+  }
+}
